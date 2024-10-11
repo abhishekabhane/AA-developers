@@ -1,15 +1,15 @@
-This is a basic website which is made with ❤️ using Node express mongoDB in the backend and EJS for the frontend and bootstrap for the styling of the page. 
+This website is built with ❤️ using Node.js, Express, and MongoDB on the backend, with EJS for templating and Bootstrap for styling. 
 
 --- Pre-requisite ---
-1. Basic understanding of Nodejs, js, express, mongoDB, HTML and CSS 
-2. Latest version of node js installed in the PC/Laptop 
+
+1. A basic understanding of Node.js, JavaScript, Express, MongoDB, HTML, and CSS
+2. The latest version of Node.js installed on your computer
 
 --- INSTALLATION --- 
 
-1. Download all the files and save it in a folder
-2. open command prompt or terminal
-3. navigate to the folder directory
-4. Type "npm install" to install all the dependencies
-5. Type "npm start" or "node app.js" to the run the server
-6. Open browser
-7. type "https://localhost:3000" and press enter, the site will be visible  
+1. Download all the project files and save them in a folder.
+2. Open command prompt or terminal.
+3. Navigate to the project directory.
+4. Run the command npm install to install all the necessary dependencies.
+5. Start the server by running npm start or node app.js.
+6. Open your browser and visit https://localhost:3000 to view the website. 
