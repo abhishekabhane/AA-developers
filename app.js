@@ -12,15 +12,15 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // app.use(express.static("public"));
 app.use(express.static(path.join(__dirname, 'public')));
 
-mongoose.connect("mongodb+srv://admin-abhishek:@Bhi2001@cluster0.axydn.mongodb.net/AAdevelopersDB", { useNewUrlParser: true, useUnifiedTopology: true });
+// mongoose.connect("mongodb+srv://admin-abhishek:@Bhi2001@cluster0.axydn.mongodb.net/AAdevelopersDB", { useNewUrlParser: true, useUnifiedTopology: true });
 
-const postSchema = {
-    name: String,
-    email: String,
-    message: String
-}
+// const postSchema = {
+//     name: String,
+//     email: String,
+//     message: String
+// }
 
-const Post = mongoose.model("Post", postSchema);
+// const Post = mongoose.model("Post", postSchema);
 
 app.get("/", function(req, res) {
     res.render("index");
